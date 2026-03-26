@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    real nota1,nota2, notafinal
+    
+    escreva("digite nota1:")
+    leia(nota1)
+    escreva("digite nota2:")
+    leia(nota2)
+
+    notafinal = (nota1 + nota2) / 2
+    
+    se(notafinal>= 7){
+    escreva("aprovado")
+    }senao se(notafinal==5 e notafinal<7){
+    escreva ("reprovado")
+
+  }
+}
+}
